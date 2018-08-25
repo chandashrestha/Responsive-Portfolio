@@ -241,6 +241,7 @@ main content {
     }
     .stickyFooter {
         max-width: 980px;
+        width: 100%;
     }
     .contactcontent {
         max-width: 980px;
@@ -260,14 +261,14 @@ main content {
         /* position: static;
         height: 123px; */
         width: 100%;
-        max-width: 980px;
+        min-width: 980px;
         transform: translateX(-50%);
     }
     #menu {
         clear: both;
         text-align: center;
         padding: 20px;
-        width: 60%;
+        min-width: 60%;
         margin: auto;
     }
     input {
@@ -317,7 +318,7 @@ main content {
     header {
         /* position: static;
         height: 123px; */
-        width: 100%;
+        min-width: 100%;
         max-width: 768px;
         transform: translateX(-50%);
     }
