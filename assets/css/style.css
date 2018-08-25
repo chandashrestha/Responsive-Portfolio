@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background: #ffffff;
+    border-color: #cccccc;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+hr {
+    margin-bottom: 20px;
+    background: lightgrey;
+    border: solid 2px lightgrey;
+}
+
+header {
+    background: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.stickyFooter {
+    border-bottom: 1px solid #aaa;
+}
+
+.everythingwrapper {
+    /* max-width: 960px; */
+    padding-top: 50px;
+    padding-bottom: 70px;
+    min-height: 100vh;
+    background-image: url(../images/leaves-pattern.png);
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+    background: white;
+    border: solid 1px #aaa;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    height: 600px;
+}
+
+#mainphoto {
+    height: 200px;
+    max-width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imgfirst {
+    float: left;
+    line-height: 20px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+p {
+    line-height: 2em;
+}
+
+#myName {
+    background-color: #4aaaa5;
+    color: white;
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    border: solid #4aaaa5 20px;
+    margin: 0px;
+}
+
+#Name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    border: solid #4aaaa5 20px;
+    margin: 1px;
+}
+
+.navigation {
+    color: grey;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#menu {
+    display: inline-block;
+    text-align: right;
+    width: 64%;
+    /* margin-left: 930px; */
+}
+
+.divider {
+    margin: 0 10px;
+    color: #eee;
+}
+
+footer {
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    border-top: #4aaaa5 solid 8px;
+    padding-top: 20px;
+    font-size: 10px;
+    position: sticky;
+    bottom: 0;
+}
+
+main content {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.banner {
+    z-index: -1;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    bottom: -78%;
+    color: white;
+}
+
+#hangman {
+    background-image: url('../images/pic1.jpg');
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+    position: sticky;
+}
+
+#girltower {
+    background-image: url('../images/pic2.jpg');
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+    position: sticky;
+}
+
+#Crayola {
+    background-image: url('../images/pic3.jpg');
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+    position: sticky;
+}
+
+#Calendar {
+    background-image: url('../images/pic4.jpg');
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+    position: sticky;
+}
+
+#Highlighter {
+    background-image: url('../images/pic5.jpg');
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+    position: sticky;
+}
+
+.portfolioPic {
+    margin: 10px;
+}
+
+#SubmitBtn {
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 75px;
+}
+
+#msgbox {
+    height: 200px;
+    width: 900px;
+    box-sizing: border-box;
+}
+
+#emailbox {
+    box-sizing: border-box;
+    width: 900px;
+}
+
+#namebox {
+    box-sizing: border-box;
+    width: 900px;
+}
+
+.contactcontent {
+    width: 960px;
+    margin: auto;
+    background: white;
+    border: solid 1px #aaa;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 860px;
+}
